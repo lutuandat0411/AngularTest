@@ -1,19 +1,10 @@
-.navbar-default {
-    background-color: #FFFF !important;
-    border-color: rgba(20, 20, 20, 0.667);
-    border: 5px;
+.navbar-light {
     .navbar-header {
         margin-bottom: 10px;
         .fa-cog {
             color: #f17806 !important;
             margin-right: 25px;
             font-size: 30px;
-        }
-        a > p {
-            color: #f17806 !important;
-            text-align: center;
-            font-family: Arial, Helvetica, serif;
-            font-size: 16px;
         }
         .fa-bars {
             font-size: 20px;
@@ -30,5 +21,8 @@
             margin-left: 15px;
         }
         
+    }
+    .navbar-content > i {
+        margin: 5,10,5,10;
     }
 }
